@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins;
+  font-weight: 400;
+}
+.container{
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0 22px;
+  
+}
+.header__logo{
+  font-size: 30px;
+  font-weight: bold;
+}
+.header__logo a{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__burger{
+  border: 1px solid black;
+  height: 20px;
+  width: 25px;
+}
+
+
+nav{
+  display: flex;
+}
+.nav-menu{
+  display: flex;
+  gap: 30px;
+  font-family: Poppins;
+  font-weight: 600;
+  align-items: center;
+}
+.header__button{
+margin-left: 27px;
+font-family: Poppins;
+font-weight: 600;
+}
+.header__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.Sign__in{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 6px;
+}
+.nav-menuv ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu li{
+  display: inline-block;
+}
+.Sign__up:hover{
+  background-color: #185e29;
+  color: white;
+} 
+.Sign__in:hover{
+  background-color: #185e29;
+  color: white;
+}
+.header__button a{
+   padding: 10px 22px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  color: #173A56;
+}
+.for_you{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 114px;
+}
+.foryou__icons{
+  display: flex;
+  margin-top: 66px;
+  justify-content: space-between;
+  width: 100%;
+}
+.Header__Product h1{
+  display: flex;
+  max-width: 539px;
+  font-size: 32px;
+  text-align: center;
+}
+.foryou__icons p{
+  margin-top: 13px;
+}
+.foryou__icons h3{
+  margin-top: 25px;
+}
+.icons__1{
+  width: 240px;
+}
+.icons__2{
+  width: 240px;
+}
+.icons__3{
+  width: 240px;
+}
+.icons__4{
+  width: 240px;
+}
+.sign__upbtn{
+  border: 1px solid #BCD0E5;
+    padding: 15px 33px;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+    margin-top: 34px;
+    display: inline-block;
+}
+.sign__upbtn:hover{
+        background-color: #185e29;
+        color: white;
+      }
+
+      .Management{
+        display: flex;
+        margin-top: 240px;
+       
+    }
+    .managment__content h4{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        color: #22343D;
+    }
+    span{
+        font-weight: bold;
+        font-size: 32px;
+        display: block;
+    }
+    .mng__content{
+        margin-bottom: 131px;
+    }
+    .Alterationists__margin{
+            margin-top: 25px;
+    }
+  
